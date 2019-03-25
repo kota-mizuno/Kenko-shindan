@@ -1,0 +1,28 @@
+[
+    {
+      message: '間食はしますか？',
+      select: [
+        {
+          text: 'はい',
+          score: 0
+        },
+        {
+          text: 'いいえ',
+          score: 1
+        }
+      ]
+    },
+    {
+      message: '昼食はどちらを食べたいですか？',
+      select: [
+        {
+          text: '肉',
+          score: 0
+        },
+        {
+          text: '魚',
+          score: 1
+        }
+      ]
+    }
+  ]
