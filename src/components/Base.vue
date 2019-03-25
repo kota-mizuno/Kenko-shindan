@@ -1,7 +1,7 @@
 <template>
   <div class="base-container">
     <h1>タベスギケンシン</h1>
-    <h2>Webでカンタン！ケンコウシンダン</h2>
+    <h2>Webでカンタン！ケンコウシンダン!</h2>
     <Question
       v-for="(q, idx) in question" :key="idx"
       :question="q"
@@ -71,11 +71,15 @@ export default {
 h1 {
   font-weight: bold;
   font-family: 'Nico Moji';
+  font-size: 30px;
+  height:68px;
 }
 
 h2 {
   font-weight: normal;
   font-family: 'Nico Moji';
+  height: 5px;
+  font-size: 15px;
 }
 
 ul {
@@ -92,6 +96,6 @@ a {
 
 h1:first-letter {
   font-size: 2em;
-  color: #7172ac;
+  color: #fa6429;
 }
 </style>
